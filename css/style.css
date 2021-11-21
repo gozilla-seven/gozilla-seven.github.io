@@ -1,3 +1,13 @@
+/*整个背景颜色*/
+body{
+  background: #f6f8fa
+}
+
+/*顶部栏*/
+#nav .site-page:not(.child):after{
+}
+
+/*底部样式*/
 #footer {
 	background: transparent;
 }
@@ -5,6 +15,25 @@
 #footer-wrap {
 	color: #0d0d0d;
 }
+
+
+/*侧边栏*/
+#aside-content{
+  float: right;
+}
+
+/*充电横条*/
+#aside-content .card-info #card-info-btn{
+  background-color: #f00;
+
+}
+
+/*右下角样式*/
+:root {
+  --btn-bg: #f00;
+  --btn-hover-color: #0d0d0d;
+}
+
 
 /* 滚动条样式 */
 ::-webkit-scrollbar {
