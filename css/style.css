@@ -19,7 +19,8 @@ body{
 
 /*侧边栏*/
 #aside-content{
-  float: right;
+  float: right; 
+  !important
 }
 
 /*充电横条*/
